@@ -28,7 +28,7 @@ Standard network routing overloads the shortest path and takes seconds to recove
 | Primary Path | PE1 → P1 → P3 → P2 → PE3 |
 | Backup Path | PE1 → P1 → P2 → P3 → PE3 |
 | Failover Speed | <50 milliseconds |
-| Packet Loss | 0 dropped packets out of 1,000 (100% delivery during cutover) |
+| Packet Loss | 0 dropped packets out of 5(100% delivery during cutover) |
 | Recovery | Instant, zero-impact traffic redirection |
 
 ## 🛠️ Key Technologies & Concepts
